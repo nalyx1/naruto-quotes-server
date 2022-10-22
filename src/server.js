@@ -8,5 +8,5 @@ server.use(cors());
 server.use(route)
 
 server.listen(process.env.PORT || 5000, () => {
-    console.log(`Server listening on port http://localhost:${port}`);
+    console.log(`Server listening`);
 });
